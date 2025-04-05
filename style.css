@@ -68,67 +68,149 @@ body{
     border-radius: 5px;
     position: relative;
 }
-.container{
-    display: flex;
-    margin-left:10%;
+.description{
     position: absolute;
-    bottom: 20%;
-    background-color: white;
-    border-radius: 5px;
-    background-color: gainsboro;
-    justify-content: center;
-    height: 100px;
-    width: 1150px;
+    top: 20%;
+    left:35%;
+    
 }
-.yolo-thing-1{
+.description h1{
+    text-align: center;
+    font-family: georgia;
+    font-size: 50px;
+}
+.description p{
+    margin: -5px;
+    color:rgb(119, 95, 95);
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    background-color: bisque;
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    top:70%;
+    
+}
+.boll{
 
+    flex-basis: 50%;
+    border-radius: 10px;
+    background-color: rgb(236, 225, 225);
+    
+
+}
+.rust li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+   
+
+}
+.rust{
+    flex-basis: 50%;
+    background-color: rgb(196, 186, 186);
+     border-radius: 10px;
+}
+.rust h4{
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 4px;
+    color: rgb(144, 86, 185);
+    font-size: larger;
 }
 .uno1{
-    flex-basis: 20%;
+
     width: 100px;
-    height: 20px;
-    margin-top: 30px;
+    border-radius: 10px;
+    height: 40px;
+    border: 0.5px solid grey;
+    margin-left: 60px;
 }
 .uno2{
-    flex-basis: 20%;
     width: 100px;
-    height: 20px;
-    margin-top: 30px;
+    margin-left:5px;
+    border-radius: 10px;
+    height: 40px; 
+    border:  0.5px solid grey;
 }
 .uno3{
-    flex-basis: 20%;
-    width:20px;
-    height: 20px;
-    margin-top: 30px;
-}
 
-
-
-.mangadb{
-    display:flex;
-    justify-content:space-between;
-    
-    border-radius: 3px;
-    width:;
-    height:;
-    padding:;
-    margin:;
-    background-color: rgb(185, 159, 197);
-    
-}
-.mangadb button{
-    margin-right: -100px;
+    width: 40px;
+    margin-left: 20px;
     border-radius: 10px;
-    width: 70px;
-    height: 30px;
-    background-color: rgb(185, 159, 197);
-}
-.mangadb label{
-    position: relative;
-    top:30px;
-    right:170px;
+    height: 40px;
+    border:  0.5px solid grey;
     
 }
+.boll input{
+    margin-left: 20px;
+    margin-bottom:3px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius:10px ;
+    height: 40px;
+    border:  0.5px solid grey;
+}
+.boll button{
+    border-radius: 5px;
+    margin-left:10px;
+    background-color: rgb(90, 7, 150);
+    color:white;
+    height: 40px;
+    border: none;
+    width:70px;
+
+}
+.bollu{
+    margin-left: 4px;
+    border-radius: 5px;
+    margin-top: 0px;
+
+}
+.hope h4{
+    margin-top: 2px;
+    margin-left:10px;
+    color: rgb(169, 149, 184);
+    font-size: larger;
+}
+
+.bolla p{
+    margin:5px;
+    color:grey;
+    
+}
+.figma{
+    margin-bottom: 100px;
+    margin-top:3px ;
+    display: inline-block;
+    
+    margin-left: 40px;
+}
+.fring{
+    margin-left: 5px;
+    color: grey;
+    margin-bottom: 20px;
+    
+}
+.zen{
+    border-radius: 5px;
+    margin-left: 30px;
+    background-color: rgb(90, 7, 150);
+    color:white;
+    height: 40px;
+    border: none;
+    width:60px;
+}
+
+
+    
+
 .container2{
     background-color: grey;
     max-width: 1170px;
@@ -158,4 +240,35 @@ ul{
     margin-bottom: 30px;
     font-family: georgia;
     position: relative;
+}
+.testimonial{
+    background: #fff;
+    padding: 30px;
+    margin: 10%;
+
+  }
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px;
+
+}
+.col{
+    
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    padding: 5px;
+    
+    
+    
 }
